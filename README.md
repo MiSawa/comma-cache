@@ -19,6 +19,11 @@ comma-cache remove KEY   # Remove a cache entry
 ## Installation
 
 ```bash
-cargo install comma-cache --release
+cargo install comma-cache
 ```
 
+or you can `nix run` to run without installing it to the system
+
+```bash
+nix run 'github:MiSawa/comma-cache'
+```

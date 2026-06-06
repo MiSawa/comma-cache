@@ -1,5 +1,5 @@
 {
-  description = "A util to manipulate comma cache";
+  description = "A tool to manipulate comma cache";
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     flake-parts = {

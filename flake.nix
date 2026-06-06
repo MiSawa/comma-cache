@@ -56,14 +56,6 @@
             default = comma-cache;
           };
           devshells.default = {
-            commands = [
-              {
-                name = "release";
-                category = "development";
-                help = "release to crates.io";
-                command = ''nix shell 'nixpkgs#cargo-release' --command 'cargo' 'release' "$@"'';
-              }
-            ];
             packages = [
               pkgs.clang
               toolchain
